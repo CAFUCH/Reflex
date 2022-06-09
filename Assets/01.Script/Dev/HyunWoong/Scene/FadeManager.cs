@@ -19,6 +19,12 @@ public class FadeManager : MonoBehaviour
         Instance = this;
     }
 
+<<<<<<< HEAD
+=======
+    /// <summary>
+    /// È­¸é ±î¸ÅÁü
+    /// </summary>
+>>>>>>> upstream/HyunWoong
     public void FadeIn()
     {
         Image img = fadePanelTrm.GetComponent<Image>();
@@ -26,6 +32,9 @@ public class FadeManager : MonoBehaviour
         img.DOFade(1, 0.5f);
     }
 
+    /// <summary>
+    /// È­¸é ¹à¾ÆÁü
+    /// </summary>
     public void FadeOut()
     {
         Image img = fadePanelTrm.GetComponent<Image>();
